@@ -1,6 +1,6 @@
 # STM8-NRF24L01+ Library
 
-This library provides a simple interface to control the NRF24L01+ transceiver module using STM8 microcontrollers. It supports basic TX and RX functionality, SPI communication, and configuration of the NRF24L01+ module.
+This library provides a simple interface to control the NRF24L01+ transceiver module using STM8 microcontrollers. It supports basic TX and RX functionality,  and configuration of the NRF24L01+ module.
 
 
 ## Configuration in `nrf24.h`
