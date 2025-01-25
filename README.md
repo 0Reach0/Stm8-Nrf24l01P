@@ -3,15 +3,18 @@
 This library provides a simple interface to control the NRF24L01+ transceiver module using STM8 microcontrollers. It supports basic TX and RX functionality,  and configuration of the NRF24L01+ module.
 
 
-## Configuration in `nrf24.h`
+## Configuration in `NRF24.h`
 
-1. **Pin Configuration**:
+0. **SetUp STM8 SPL Library**
+   -Change 'stm8s.h' to your SPL header, if necessary.
+  
+2. **Pin Configuration**:
    - Update `CE_PIN`, `CSN_PIN`, `SCK_PIN`, `MISO_PIN`, and `MOSI_PIN` to match your hardware.
 
-2. **Default Settings**:
+3. **Default Settings**:
    - Modify default register values (e.g., `DEFAULT_CONFIG_RX`, `DEFAULT_RF_CH`) if needed.
 
-3. **SPI Settings**:
+4. **SPI Settings**:
    - Adjust SPI baud rate, mode, and other parameters in `SPI_Init_NRF` if necessary.
 
 ## Functions
